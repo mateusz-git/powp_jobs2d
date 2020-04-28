@@ -3,7 +3,7 @@ package edu.kis.powp.command;
 import java.util.List;
 
 public class ComplexCommand implements DriverCommand {
-    List<DriverCommand> driverCommandList;
+    private List<DriverCommand> driverCommandList;
 
     public ComplexCommand(List<DriverCommand> driverCommandList) {
         this.driverCommandList = driverCommandList;
